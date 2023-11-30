@@ -1,0 +1,223 @@
+:root {
+    --primary-blue: rgba(56, 125, 223, 1);
+    --black-text: rgba(0, 0, 0, 1);
+    --white: rgba(255, 255, 255, 1);
+    --primary-orange: rgba(255, 122, 1, 1);
+    --green: rgba(8, 119, 90, 1);
+}
+
+.contacttext{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+
+.logo{
+    position: relative;
+    width: fit-content;
+    margin-left: -0.5px;
+    -webkit-text-stroke: 0.5px #000000;
+    font-family: "Notable-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-orange);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--black-text);
+}
+
+.overlap{
+    
+}
+
+.contacttext2{
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.frame{
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 132px;
+}
+
+.navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.navbar{
+    
+    display: flex;
+}
+
+.contact{
+    width: 100%;
+    padding-top: 253px;
+    padding-bottom: 350px ;
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    background-image: url('/images/contactbg.png');
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 62px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 706px;
+    margin-left: 36px;
+    gap: 10px;
+
+}
+
+.contact-form input{
+    height: 80px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    color: #5B5B5B;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.message{
+    border-radius: 8px;
+    border: 1px solid #DCDCDC;
+    height: 239px;
+    color: #5B5B5B;
+    padding: 10px 10px 10px 30px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit-button{
+    border: none;
+    border-radius: 8px;
+    background: #FF7A01;
+    height: 80px;
+    padding: 10px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.submit-button:hover{
+    background-color: rgb(225, 140, 0);
+    cursor: pointer;
+}
+
+ .div-wrapper {
+    display: flex;
+    width: 132px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: var(--primary-orange);
+    border-radius: 6px;
+    border: none;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+ .div-wrapper:hover {
+    background-color: rgb(225, 140, 0);
+    cursor: pointer;
+}
+
+.text-wrapper-2 {
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+ .text-wrapper-3 {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 00;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.overlap .frame-4 {
+    padding-top: 94px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.overlap.line {
+    position: relative;
+    width: 1515px;
+    height: 4px;
+    margin-top: -1px;
+    object-fit: cover;
+}
+
+.overlap.text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 41.1px;
+    white-space: nowrap;
+}

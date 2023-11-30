@@ -1,0 +1,428 @@
+.why-solar {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.why-solar .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 4353px;
+    position: relative;
+}
+
+.why-solar .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 153px;
+    position: absolute;
+    top: 37px;
+    left: 60px;
+}
+
+.why-solar .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-left: -0.5px;
+    -webkit-text-stroke: 0.5px #000000;
+    font-family: "Notable-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--primary-orange);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--black-text);
+}
+
+.why-solar .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.why-solar .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.why-solar .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.why-solar .div-wrapper {
+    display: flex;
+    width: 132px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: var(--primary-orange);
+    border-radius: 6px;
+    border: none;
+}
+
+.why-solar .div-wrapper:hover {
+    background-color: rgb(225, 140, 0);
+    cursor: pointer;
+}
+
+.why-solar .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.why-solar .overlap {
+    position: absolute;
+    width: 1512px;
+    height: 872px;
+    top: 110px;
+    left: 0;
+    background-image: url(/images/Rectangle\ 3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.why-solar .frame-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+    position: relative;
+    top: 463px;
+    left: 433px;
+}
+
+.why-solar .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.why-solar .text-wrapper-5 {
+    position: relative;
+    width: 647px;
+    margin-top: -1px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.why-solar .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.why-solar .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 82px;
+    position: absolute;
+    top: 1072px;
+    left: 76px;
+}
+
+.why-solar .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.why-solar .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.why-solar .group {
+    position: relative;
+    width: 222px;
+    height: 8px;
+}
+
+.why-solar .rectangle {
+    position: absolute;
+    width: 127px;
+    height: 4px;
+    top: 0;
+    left: 95px;
+    background-color: var(--primary-orange);
+    border-radius: 5px 5px 5px 0px;
+}
+
+.why-solar .rectangle-2 {
+    position: absolute;
+    width: 127px;
+    height: 4px;
+    top: 4px;
+    left: 0;
+    background-color: var(--green);
+    border-radius: 5px 0px 5px 5px;
+}
+
+.why-solar .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.why-solar .about {
+    display: inline-flex;
+    align-items: center;
+    gap: 147px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.why-solar .overlap-wrapper {
+    position: relative;
+    width: 554px;
+    height: 602px;
+}
+
+.why-solar .overlap-group {
+    position: relative;
+    height: 602px;
+}
+
+.why-solar .overlap-group-2 {
+    position: absolute;
+    width: 554px;
+    height: 602px;
+    top: 0;
+    left: 0;
+}
+
+.why-solar .img {
+    position: absolute;
+    width: 471px;
+    height: 491px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.why-solar .rectangle-3 {
+    position: absolute;
+    width: 378px;
+    height: 357px;
+    top: 245px;
+    left: 176px;
+    object-fit: cover;
+}
+
+.why-solar .rectangle-4 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 503px;
+    left: 124px;
+    background-color: var(--green);
+    border-radius: 4px;
+    transform: rotate(-0.74deg);
+}
+
+.why-solar .rectangle-5 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 191px;
+    left: 483px;
+    background-color: var(--primary-orange);
+    border-radius: 4px;
+    transform: rotate(-0.74deg);
+}
+
+.why-solar .at-solar-zone-our {
+    position: relative;
+    width: 658px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 47.5px;
+}
+
+.why-solar .span {
+    color: #000000;
+}
+
+.why-solar .text-wrapper-8 {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff7a01;
+}
+
+.why-solar .by-connecting-users {
+    position: relative;
+    width: 658px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 47.5px;
+}
+
+.why-solar .rectangle-6 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 503px;
+    left: 124px;
+    background-color: var(--primary-orange);
+    border-radius: 4px;
+    transform: rotate(-0.74deg);
+}
+
+.why-solar .rectangle-7 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 191px;
+    left: 483px;
+    background-color: var(--green);
+    border-radius: 4px;
+    transform: rotate(-0.74deg);
+}
+
+.why-solar .p {
+    position: relative;
+    width: 658px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 47.5px;
+}
+
+.why-solar .frame-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    position: absolute;
+    top: 3938px;
+    left: 0;
+}
+
+.why-solar .contact-us-get-in-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 45px 89px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #121212;
+}
+
+.why-solar .contact-us-get-in {
+    position: relative;
+    width: 1333px;
+    margin-top: -1px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 41.1px;
+}
+
+.why-solar .text-wrapper-9 {
+    font-weight: 700;
+}
+
+.why-solar .text-wrapper-10 {
+    font-family: "Montserrat-Regular", Helvetica;
+}
+
+.why-solar .frame-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.why-solar .line {
+    position: relative;
+    width: 1512px;
+    height: 4px;
+    margin-top: -1px;
+    object-fit: cover;
+}
+
+.why-solar .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 41.1px;
+    white-space: nowrap;
+}

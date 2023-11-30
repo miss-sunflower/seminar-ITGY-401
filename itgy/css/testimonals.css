@@ -1,0 +1,332 @@
+.testimonials {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonials .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 2578px;
+    position: relative;
+}
+
+.testimonials .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 153px;
+    position: absolute;
+    top: 37px;
+    left: 60px;
+}
+
+.testimonials .text-wrapper {
+    width: fit-content;
+    margin-left: -0.5px;
+    -webkit-text-stroke: 0.5px #000000;
+    font-family: "Notable-Regular", Helvetica;
+    color: var(--primary-orange);
+    font-size: 18px;
+    position: relative;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    border-color: var(--black-text);
+}
+
+.testimonials .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.testimonials .text-wrapper-2 {
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.testimonials .text-wrapper-3 {
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 600;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.testimonials .div-wrapper {
+    display: flex;
+    width: 132px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: var(--primary-orange);
+    border-radius: 6px;
+    border: none;
+}
+
+.testimonials .div-wrapper:hover {
+    background-color: rgb(225, 140, 0);
+    cursor: pointer;
+}
+
+.testimonials .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.testimonials .overlap-group {
+    position: absolute;
+    width: 1512px;
+    height: 872px;
+    top: 110px;
+    left: 0;
+    background-image: url(/images/TestimonialsBG.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.testimonials .frame-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+    position: relative;
+    top: 463px;
+    left: 433px;
+}
+
+.testimonials .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.testimonials .text-wrapper-5 {
+    position: relative;
+    width: 647px;
+    margin-top: -1px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.testimonials .p {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.testimonials .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    position: absolute;
+    top: 2144px;
+    left: 0;
+}
+
+.testimonials .contact-us-get-in-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 45px 89px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #121212;
+}
+
+.testimonials .contact-us-get-in {
+    position: relative;
+    width: 1333px;
+    margin-top: -1px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 41.1px;
+}
+
+.testimonials .span {
+    font-weight: 700;
+}
+
+.testimonials .text-wrapper-6 {
+    font-family: "Montserrat-Regular", Helvetica;
+}
+
+.testimonials .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.testimonials .line {
+    position: relative;
+    width: 1512px;
+    height: 4px;
+    margin-top: -1px;
+    object-fit: cover;
+}
+
+.testimonials .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 41.1px;
+    white-space: nowrap;
+}
+
+.testimonials .frame-5 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: absolute;
+    top: 1115px;
+    left: 60px;
+}
+
+.testimonials .frame-6 {
+    display: flex;
+    width: 1392px;
+    height: 172px;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #b9b9b9;
+}
+
+.testimonials .rectangle {
+    position: relative;
+    width: 138px;
+    height: 128px;
+}
+
+.testimonials .frame-7 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.testimonials .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Roboto-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.testimonials .switching-to {
+    position: relative;
+    width: 1149px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #515151;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 25.4px;
+}
+
+.testimonials .text-wrapper-9 {
+    width: 1149px;
+    font-family: "Roboto-Regular", Helvetica;
+    color: #515151;
+    font-size: 20px;
+    position: relative;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.testimonials .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.testimonials .frame-8 {
+    display: flex;
+    width: 388px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #ff7a01;
+    border-radius: 6px;
+    border: none;
+}
+
+.testimonials .frame-8:hover{
+    background-color: rgb(225, 140, 0);
+    cursor: pointer;
+}
